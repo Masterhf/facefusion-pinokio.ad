@@ -42,14 +42,14 @@ module.exports = async kernel =>
 				params:
 				{
 					message: install(kernel),
-					path: 'facefusion',
+					path: 'ff-2.4.0Unlocked',
 					env:
 					{
 						PYTHONNOUSERSITE: 'True'
 					},
 					conda:
 					{
-						name: 'facefusion'
+						name: 'ff-2.4.0Unlocked'
 					}
 				}
 			},
