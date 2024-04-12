@@ -8,7 +8,7 @@ function install(kernel)
 	}
 	if ([ 'linux', 'win32' ].includes(platform) && gpu === 'nvidia')
 	{
-		return 'python install.py --onnxruntime cuda-11.4';
+		return 'python install.py --onnxruntime cuda-11.8';
 	}
 	if (gpu === 'amd')
 	{
@@ -65,7 +65,7 @@ module.exports = async kernel =>
 				method: 'browser.open',
 				params:
 				{
-					uri: '/?selected=facefusion'
+					uri: '/?selected=ff-2.4.0Unlocked'
 				}
 			}
 		]
