@@ -8,7 +8,7 @@ function install(kernel)
 	}
 	if ([ 'linux', 'win32' ].includes(platform) && gpu === 'nvidia')
 	{
-		return 'python install.py --onnxruntime cuda-12.2';
+		return 'python install.py --onnxruntime cuda-11.4';
 	}
 	if (gpu === 'amd')
 	{
@@ -34,7 +34,7 @@ module.exports = async kernel =>
 				method: 'shell.run',
 				params:
 				{
-					message: 'git clone https://github.com/facefusion/facefusion --branch 2.5.0 --single-branch'
+					message: 'git clone https://github.com/zachysaur/ff-2.4.0Unlocked --branch master --single-branch'
 				}
 			},
 			{
