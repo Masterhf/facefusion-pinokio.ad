@@ -23,10 +23,10 @@ module.exports = () =>
 				params:
 				{
 					message: '{{ self.cmd[local.mode] }}',
-					path: 'facefusion',
+					path: 'ff-2.4.0Unlocked',
 					conda:
 					{
-						name: 'facefusion'
+						name: 'ff-2.4.0Unlocked'
 					},
 					on:
 					[
